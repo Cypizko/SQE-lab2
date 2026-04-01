@@ -16,7 +16,8 @@ def save():
             f.write(t + "\n")
 
 root = tk.Tk()
-root.title("To-Do1")
+root.title("To-Do12")
+
 root.geometry("250x300")
 
 entry = tk.Entry(root)
