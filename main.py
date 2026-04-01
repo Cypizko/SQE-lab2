@@ -26,7 +26,7 @@ entry.pack(fill="x")
 btn_add = tk.Button(root, text="Додати завдання", command=add, bg="lightgreen")
 btn_add.pack(fill="x")
 
-btn_delete = tk.Button(root, text="Видалити вибране", command=delete, bg="lightgrey")
+btn_delete = tk.Button(root, text="Видалити вибране", command=delete, bg="lightblue")
 btn_delete.pack(fill="x")
 
 btn_save = tk.Button(root, text="Зберегти у файл", command=save, bg="lightgrey")
