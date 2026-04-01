@@ -22,7 +22,7 @@ root.geometry("250x300")
 entry = tk.Entry(root)
 entry.pack(fill="x")
 
-btn_add = tk.Button(root, text="Додати завдання", command=add, bg="lightgrey")
+btn_add = tk.Button(root, text="Додати завдання", command=add, bg="lightgreen")
 btn_add.pack(fill="x")
 
 btn_delete = tk.Button(root, text="Видалити вибране", command=delete, bg="lightgrey")
