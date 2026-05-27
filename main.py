@@ -23,13 +23,16 @@ root.geometry("250x300")
 entry = tk.Entry(root)
 entry.pack(fill="x", padx=10, pady=5)
 
-btn_add = tk.Button(root, text="Додати завдання", command=add, bg="lightgreen")
+
+btn_add = tk.Button(root, text="Додати завдання", command=add, bg="#2ecc71", fg="black", font=("Arial", 10, "bold"))
 btn_add.pack(fill="x", padx=10, pady=5)
 
-btn_delete = tk.Button(root, text="Видалити вибране", command=delete, bg="lightblue")
+
+btn_delete = tk.Button(root, text="Видалити вибране", command=delete, bg="#e74c3c", fg="black", font=("Arial", 10))
 btn_delete.pack(fill="x", padx=10, pady=5)
 
-btn_save = tk.Button(root, text="Зберегти у файл", command=save, bg="lightgrey")
+
+btn_save = tk.Button(root, text="Зберегти у файл", command=save, bg="#bdc3c7", fg="black", font=("Arial", 10))
 btn_save.pack(fill="x", padx=10, pady=5)
 
 listbox = tk.Listbox(root)
