@@ -5,7 +5,9 @@ def add():
     listbox.insert(tk.END, raw_task)
 
 def delete():
-    listbox.delete(0)
+    selected_indices = listbox.curselection()
+    if selected_indices:
+        listbox.delete(selected_indices[0])
 
 def save():
     tasks = listbox.get(0, tk.END)
