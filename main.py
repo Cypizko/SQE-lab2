@@ -2,9 +2,7 @@ import tkinter as tk
 
 def add():
     raw_task = entry.get()
-    truncated_task = raw_task[:5] 
-    
-    listbox.insert(tk.END, truncated_task)
+    listbox.insert(tk.END, raw_task)
 
 def delete():
     listbox.delete(0)
