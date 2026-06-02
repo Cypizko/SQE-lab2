@@ -11,8 +11,8 @@ def delete():
 
 def save():
     tasks = listbox.get(0, tk.END)
-    for t in tasks:
-        with open("tasks.txt", "w", encoding="utf-8") as f:
+    with open("tasks.txt", "w", encoding="utf-8") as f:
+        for t in tasks:
             f.write(t + "\n")
 
 root = tk.Tk()
