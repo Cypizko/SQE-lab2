@@ -25,7 +25,7 @@ class TestToDoApp(unittest.TestCase):
         add_task(self.entry, self.listbox)
         
         self.assertEqual(self.listbox.size(), 1)
-        self.assertEqual(self.listbox.get(0), "Купити хліб")
+        self.assertEqual(self.listbox.get(0), "Купити книгу")
 
     def test_delete_task(self):
         self.listbox.insert(tk.END, "Завдання 1")
